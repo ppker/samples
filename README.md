@@ -1,6 +1,6 @@
 # Flutter samples
 
-[![Build Status](https://github.com/flutter/samples/workflows/Master%20Branch%20CI/badge.svg)](https://github.com/flutter/samples/actions?workflow=Master%20Branch%20CI)
+[![Build Status](https://github.com/flutter/samples/workflows/Main%20Branch%20CI/badge.svg)](https://github.com/flutter/samples/actions?workflow=Main%20Branch%20CI)
 
 A collection of open source samples that illustrate best practices for
 [Flutter](https://flutter.dev).
@@ -43,3 +43,4 @@ techniques for one of your own apps, try one of these resources:
 
 If you run into a bug in one of the samples, please file an issue in the
 [`flutter/samples` issue tracker](https://github.com/flutter/samples/issues).
+

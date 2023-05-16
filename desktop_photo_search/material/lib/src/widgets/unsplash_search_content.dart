@@ -13,7 +13,7 @@ import '../widgets/photo_details.dart';
 import '../widgets/split.dart';
 
 class UnsplashSearchContent extends StatefulWidget {
-  const UnsplashSearchContent({Key? key}) : super(key: key);
+  const UnsplashSearchContent({super.key});
 
   @override
   State<UnsplashSearchContent> createState() => _UnsplashSearchContentState();
@@ -53,7 +53,7 @@ class _UnsplashSearchContentState extends State<UnsplashSearchContent> {
                   final path = await getSavePath(
                     suggestedName: '${photo.id}.jpg',
                     acceptedTypeGroups: [
-                      XTypeGroup(
+                      const XTypeGroup(
                         label: 'JPG',
                         extensions: ['jpg'],
                         mimeTypes: ['image/jpeg'],

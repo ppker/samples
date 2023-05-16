@@ -30,6 +30,10 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
+    directory: "analysis_defaults/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
     directory: "android_splash_screen/"
     schedule:
       interval: "daily"
@@ -38,11 +42,35 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
+    directory: "background_isolate_channels/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "code_sharing/client/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "code_sharing/server/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "code_sharing/shared/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
     directory: "desktop_photo_search/fluent_ui/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
     directory: "desktop_photo_search/material/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "experimental/context_menus/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "experimental/element_embedding_demo/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
@@ -74,6 +102,22 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
+    directory: "experimental/material_3_demo/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "experimental/pedometer/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "experimental/pedometer/example/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "experimental/varfont_shader_puzzle/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
     directory: "experimental/web_dashboard/"
     schedule:
       interval: "daily"
@@ -83,6 +127,14 @@ updates:
       interval: "daily"
   - package-ecosystem: "pub"
     directory: "form_app/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "game_template/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "google_maps/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
@@ -102,15 +154,11 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
+    directory: "material_3_demo/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
     directory: "navigation_and_routing/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "pub"
-    directory: "null_safety/null_safe_app/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "pub"
-    directory: "null_safety/null_unsafe_app/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
@@ -138,7 +186,15 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
+    directory: "simple_shader/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
     directory: "simplistic_calculator/"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "simplistic_editor/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
@@ -150,15 +206,7 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
-    directory: "web/charts/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "pub"
-    directory: "web/github_dataviz/"
-    schedule:
-      interval: "daily"
-  - package-ecosystem: "pub"
-    directory: "web/particle_background/"
+    directory: "web/_tool/"
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
@@ -166,6 +214,17 @@ updates:
     schedule:
       interval: "daily"
   - package-ecosystem: "pub"
-    directory: "web/_tool/"
+    directory: "web_embedding/element_embedding_demo"
     schedule:
       interval: "daily"
+  - package-ecosystem: "pub"
+    directory: "web_embedding/ng-flutter/flutter"
+    schedule:
+      interval: "daily"
+  - package-ecosystem: "npm"
+    directory: "web_embedding/ng-flutter"
+    schedule:
+      interval: "weekly"
+    ignore:
+      - dependency-name: "*"
+        update-types: ["version-update:semver-minor", "version-update:semver-patch"]

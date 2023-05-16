@@ -43,11 +43,12 @@ void setupWindow() {
 }
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      theme: ThemeData.light(useMaterial3: true),
       home: DefaultTabController(
         length: 3,
         child: Scaffold(
