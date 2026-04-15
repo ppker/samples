@@ -42,8 +42,6 @@ workspace:
   - platform_channels
   - platform_design
   - platform_view_swift
-  - provider_counter
-  - provider_shopper
   - simple_shader
   - testing_app
   - tool
@@ -61,5 +59,3 @@ skip_ci:
 
 skip_ci_beta:
   - material_3_demo
-  # TODO(ewindmill): info - lib/basic_text_input_client.dart:262:11 - 'setStyle' is deprecated and shouldn't be used. Use updateStyle instead. This feature was deprecated after v3.41.0-0.0.pre. Try replacing the use of the deprecated member with the replacement. - deprecated_member_use on beta branch
-  - simplistic_editor
